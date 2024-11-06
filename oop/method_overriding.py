@@ -16,5 +16,6 @@ class Cat(Animal):
 # Polymorphic behavior
 animals = [Dog(), Cat(), Animal()]
 
+
 for animal in animals:
     print(animal.sound())
