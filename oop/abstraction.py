@@ -13,3 +13,4 @@ class Car:
 
 car1 = Car()
 car1.start()
+print(car1.acc)
